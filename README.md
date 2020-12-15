@@ -48,7 +48,7 @@ Version|Date|Comments
 - Clone this repository
 - Ensure that you are at the solution folder
 - In the file serve.json chnage the tenant url to your tenant url https://<<yourtenant.sharepoint.com/_layouts/15/workbench.aspx
-- Go to folder .\sharepoint\solution and imstall the package file spfx-mgt.sppkg in SharePoint Tenant in Apps in SharePoint, for more details have a look at https://youtu.be/UjsxLvIEZdA
+- Go to folder .\sharepoint\solution and install the package file spfx-mgt.sppkg in SharePoint Tenant in Apps in SharePoint, for more details have a look at https://youtu.be/UjsxLvIEZdA
 - Also grant permissions for API if not done already in SharePoint Tenant Admin site
 ![](APIAccess.png)
 - in the command-line run:
@@ -56,15 +56,9 @@ Version|Date|Comments
   - **gulp serve**
 - Add the web part "spfx-mgt" 
 
-## Features
+## Features and Detail Description
 
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
+TBD
 
 > Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
