@@ -4,6 +4,8 @@
 
 This uses SharePoint Development Framework and Microsoft Graph Toolkit 2.0
 Language used is TypeScript
+This showcases how to develop an SPFx App and load Microsoft Graph Toolkit components in SPFx web part
+Details of the source code and how to run etc is also described in video here https://youtu.be/UjsxLvIEZdA
 
 
 ![](Hnet-image.gif)
@@ -27,14 +29,13 @@ Language used is TypeScript
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+SPFX-MGT | Kislay Sinha (Kislay Sinha, CGI, https://twitter.com/SinhaKislay)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.0|December 15, 2020|Initial release
 
 ## Disclaimer
 
@@ -46,11 +47,14 @@ Version|Date|Comments
 
 - Clone this repository
 - Ensure that you are at the solution folder
+- In the file serve.json chnage the tenant url to your tenant url https://<<yourtenant.sharepoint.com/_layouts/15/workbench.aspx
+- Go to folder .\sharepoint\solution and imstall the package file spfx-mgt.sppkg in SharePoint Tenant in Apps in SharePoint, for more details have a look at https://youtu.be/UjsxLvIEZdA
+- Also grant permissions for API if not done already in SharePoint Tenant Admin site
+![](APIAccess.png)
 - in the command-line run:
   - **npm install**
   - **gulp serve**
-
-> Include any additional steps as needed.
+- Add the web part "spfx-mgt" 
 
 ## Features
 
