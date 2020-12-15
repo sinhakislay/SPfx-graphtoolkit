@@ -1,8 +1,11 @@
-# spfx-mgt
+# SharePoint Framework with Microsoft Graph ToolKit 2.0
 
 ## Summary
 
-Short summary on functionality and used technologies.
+This uses SharePoint Development Framework and Microsoft Graph Toolkit 2.0
+Language used is TypeScript
+
+
 
 [picture of the solution in action, if possible]
 
