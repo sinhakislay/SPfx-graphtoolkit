@@ -6,8 +6,7 @@ This uses SharePoint Development Framework and Microsoft Graph Toolkit 2.0
 Language used is TypeScript
 
 
-
-[picture of the solution in action, if possible]
+![](Hnet-image.gif)
 
 ## Used SharePoint Framework Version
 
