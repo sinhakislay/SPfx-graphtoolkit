@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-mgt-client-side-solution",
+    "id": "d4b2a21e-96b6-4351-964d-ff847dc2b96c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph", 
+        "scope": "Calendars.Read" 
+      },
+      {
+      "resource": "Microsoft Graph",
+      "scope": "People.Read"
+      }
+      ,
+      {
+      "resource": "Microsoft Graph",
+      "scope": "User.Read.All"
+      },
+      {
+      "resource": "Microsoft Graph",
+      "scope": "Group.Read.All"
+      }
+      ,
+      {
+      "resource": "Microsoft Graph",
+      "scope": "Tasks.ReadWrite"
+      }
+      
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-mgt.sppkg"
+  }
+}
